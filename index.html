@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Haowei Zhu | 朱浩崴</title>
+  <meta name="author" content="Haowei Zhu | 朱浩崴">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦀</text></svg>">
+  <script>
+    function showSelected() {
+      document.getElementById("selectedPublications").style.display = "block";
+      document.getElementById("allPublications").style.display = "none";
+      document.getElementById("selectedBtn").style.fontWeight = "bold";
+      document.getElementById("allBtn").style.fontWeight = "normal";
+    }
+    function showAll() {
+      document.getElementById("selectedPublications").style.display = "none";
+      document.getElementById("allPublications").style.display = "block";
+      document.getElementById("selectedBtn").style.fontWeight = "normal";
+      document.getElementById("allBtn").style.fontWeight = "bold";
+    }
+    function toggleblock(id) {
+      var block = document.getElementById(id);
+      block.style.display = (block.style.display === 'none') ? 'block' : 'none';
+    }
+    // Image zoom modal
+    function openModal(src) {
+      document.getElementById('imgModal').style.display = 'block';
+      document.getElementById('modalImg').src = src;
+    }
+    function closeModal() {
+      document.getElementById('imgModal').style.display = 'none';
+    }
+  </script>
+</head>
+<body>
+  <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px"><td style="padding:0px">
+        
+        <!-- Profile -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:62%;vertical-align:middle">
+              <p style="text-align:center"><name>Haowei Zhu | 朱浩崴</name></p>
+              <p>I am currently a Ph.D. student in <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=pBCA92wAAAAJ&hl=en&oi=ao">Junhai Yong</a> and <a href="https://scholar.google.com/citations?hl=en&user=o7AFnlUAAAAJ&view_op=list_works&sortby=pubdate">Bin Wang</a>.</p>
+              <p>My research interests center on computer vision and generative models, with a particular focus on diffusion models. Within this area, I work on efficient inference (TAP, DiffSparse, DiP-GO, TSS) and data augmentation (ReCon, DistDiff). Additionally, I explore vision-language models (SHIP) and fine-grained visual recognition (DCAL). I am expected to graduate in 2027.</p>
+              <p style="text-align:center">
+                <a href="mailto:hizhuhaow@163.com">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=JrbLqGgAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/haoweiz23/">GitHub</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="media/profile.png"><img class="profile-img" alt="profile photo" src="media/profile.png" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22105%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2214%22>Photo</text></svg>'"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- News -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>News</heading>
+              <ul>
+                <li><strong>02/2026:</strong> One paper (TAP) accepted to <b>CVPR 2026</b>.
+                <li><strong>01/2026:</strong> Two papers (DiffSparse and Mongo-GS) accepted to <b>ICLR 2026</b>.
+                <li><strong>11/2025:</strong> One paper (<a href="https://arxiv.org/abs/2601.03178">DiffAgent</a>) accepted to <b>AAAI 2026</b>.
+                <li><strong>09/2025:</strong> One paper (<a href="https://arxiv.org/abs/2510.15783">ReCon</a>) accepted to <b>NeurIPS 2025</b> <strong><span style="color:#ff0000;">(Spotlight, top 3%)</span></strong>!
+                <li><strong>05/2025:</strong> One paper (<a href="https://arxiv.org/abs/2505.12048">TSS</a>) accepted to <b>IJCAI 2025</b>.
+                <li><strong>12/2024:</strong> One paper (<a href="https://arxiv.org/abs/2412.16956">SHIP</a>) accepted to <b>ICASSP 2025</b>.
+                <li><strong>09/2024:</strong> Two papers (<a href="https://arxiv.org/abs/2403.06741">DistDiff</a> and <a href="https://arxiv.org/abs/2410.16942">DiP-GO</a>) accepted to <b>NeurIPS 2024</b>.
+                <!-- <li><strong>06/2024:</strong> Summer internship at <b>Tencent PCG</b>. -->
+                <!-- <li><strong>05/2024:</strong> Research internship at <b>ByteDance</b>. -->
+                <li><strong>09/2023:</strong> Start my Ph.D. journey in <b>Tsinghua University</b>! </li>
+                <li><strong>06/2022:</strong> One paper (<a href="https://arxiv.org/abs/2205.02151">DCAL</a>) accepted to <b>CVPR 2022</b>.
+                <!-- <a href="javascript:toggleblock('old_news')">---- show more ----</a>
+                <div id="old_news" style="display: none;">
+                  <li><strong>10/2021:</strong> Won <strong><span style="color:#ff0000;">2nd Place</span></strong> in MegEngine Paper Reproduction Competition.</li>
+                  <li><strong>09/2020:</strong> Started master's at Beijing Forestry University.</li>
+                  <li><strong>09/2016:</strong> Started bachelor's at Xiangtan University.</li>
+                </div> -->
+              </ul>
+          </td></tr>
+        </tbody></table>
+
+        <!-- Research -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p style="text-align:left; margin-top:10px; margin-bottom:5px;">
+                <a href="javascript:void(0);" id="selectedBtn" onclick="showSelected()" style="font-size:16px; text-decoration:none; font-weight:bold; margin-right:8px;">Selected Publications</a>
+                <span style="font-size:16px; color:gray; font-weight:bold; margin:0 10px;">| &nbsp</span>
+                <a href="javascript:void(0);" id="allBtn" onclick="showAll()" style="font-size:16px; text-decoration:none; font-weight:normal;">All Publications</a>
+              </p>
+          </td></tr>
+        </tbody></table>
+
+        <!-- Selected Publications -->
+        <div id="selectedPublications">
+          
+          <!-- ReCon -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/recon.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>ReCon</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2510.15783"><papertitle>ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Tianxiang Pan, Rui Qin, et al.
+                <br><em>NeurIPS</em>, 2025 <strong><span style="color:#ff0000;">(Spotlight)</span></strong>
+                <br><a href="https://arxiv.org/abs/2510.15783">arXiv</a> | <a href="https://github.com/haoweiz23/ReCon">code</a>
+                <p align="justify" style="font-size:13px">Region-controllable data augmentation with rectification and alignment for object detection.</p>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DiP-GO -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dipgo.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DiP-GO</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2410.16942"><papertitle>DiP-GO: A Diffusion Pruner via Few-step Gradient Optimization</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Dehua Tang, Ji Liu, et al.
+                <br><em>NeurIPS</em>, 2024
+                <br><a href="https://arxiv.org/abs/2410.16942">arXiv</a>
+                <p align="justify" style="font-size:13px">Differentiable pruning network with few-step gradient optimization for efficient diffusion model acceleration.</p>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DADE -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dade.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DADE</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2403.06741"><papertitle>Distribution-Aware Data Expansion with Diffusion Models</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Ling Yang, Junhai Yong, et al.
+                <br><em>NeurIPS</em>, 2024
+                <br><a href="https://arxiv.org/abs/2403.06741">arXiv</a> | <a href="https://github.com/haoweiz23/DistDiff">code</a>
+                <p align="justify" style="font-size:13px">Hierarchical prototypes and distribution-aware energy guidance for diffusion sampling.</p>
+              </td>
+          </tr></tbody></table>
+
+          <!-- SHIP -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/ship.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>SHIP</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2412.16956"><papertitle>Semantic Hierarchical Prompt Tuning for Parameter-Efficient Fine-Tuning</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Fangyuan Zhang, Rui Qin, et al.
+                <br><em>ICASSP</em>, 2025
+                <br><a href="https://arxiv.org/abs/2412.16956">arXiv</a> | <a href="https://github.com/haoweiz23/SHIP">code</a>
+                <p align="justify" style="font-size:13px">Semantic-independent and semantic-shared prompts with decoupled attention for VPT.</p>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DCA -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dca.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DCA</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2205.02151"><papertitle>Dual Cross-Attention Learning for Fine-Grained Visual Categorization and Object Re-Identification</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Wenjing Ke, Dong Li, et al.
+                <br><em>CVPR</em>, 2022
+                <br><a href="https://arxiv.org/abs/2205.02151">arXiv</a>
+                <p align="justify" style="font-size:13px">Global-local cross-attention and pairwise attention modules for fine-grained tasks.</p>
+              </td>
+          </tr></tbody></table>
+
+        </div>
+
+        <!-- All Publications -->
+        <div id="allPublications" style="display:none;">
+          
+          <!-- ReCon -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/recon.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>ReCon</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2510.15783"><papertitle>ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Tianxiang Pan, Rui Qin, et al.
+                <br><em>NeurIPS</em>, 2025 <strong><span style="color:#ff0000;">(Spotlight)</span></strong>
+                <br><a href="https://arxiv.org/abs/2510.15783">arXiv</a> | <a href="https://github.com/haoweiz23/ReCon">code</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DiffAgent -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/diffagent.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DiffAgent</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2601.03178"><papertitle>DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation</papertitle></a>
+                <br>Jiajun Jiao*, <strong>Haowei Zhu*</strong>, Puyuan Yang, et al.
+                <br><em>AAAI</em>, 2026
+                <br><a href="https://arxiv.org/abs/2601.03178">arXiv</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- TSS -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/tss.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>TSS</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2505.12048"><papertitle>Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling</papertitle></a>
+                <br>Rui Qin, Qijie Wang, Ming Sun, <strong>Haowei Zhu</strong>, et al.
+                <br><em>arXiv</em>, 2025
+                <br><a href="https://arxiv.org/abs/2505.12048">arXiv</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- FTP -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/ftp.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>FTP</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2412.11494"><papertitle>FTP: A Fine-grained Token-wise Pruner for Large Language Models via Token Routing</papertitle></a>
+                <br>Zekai Li, Jintu Zheng, Ji Liu, Han Liu, <strong>Haowei Zhu</strong>, et al.
+                <br><em>arXiv</em>, 2024
+                <br><a href="https://arxiv.org/abs/2412.11494">arXiv</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DiP-GO -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dipgo.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DiP-GO</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2410.16942"><papertitle>DiP-GO: A Diffusion Pruner via Few-step Gradient Optimization</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Dehua Tang, Ji Liu, et al.
+                <br><em>NeurIPS</em>, 2024
+                <br><a href="https://arxiv.org/abs/2410.16942">arXiv</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DADE -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dade.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DADE</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2403.06741"><papertitle>Distribution-Aware Data Expansion with Diffusion Models</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Ling Yang, Junhai Yong, et al.
+                <br><em>NeurIPS</em>, 2024
+                <br><a href="https://arxiv.org/abs/2403.06741">arXiv</a> | <a href="https://github.com/haoweiz23/DistDiff">code</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- SHIP -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/ship.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>SHIP</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2412.16956"><papertitle>Semantic Hierarchical Prompt Tuning for Parameter-Efficient Fine-Tuning</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Fangyuan Zhang, Rui Qin, et al.
+                <br><em>ICASSP</em>, 2025
+                <br><a href="https://arxiv.org/abs/2412.16956">arXiv</a> | <a href="https://github.com/haoweiz23/SHIP">code</a>
+              </td>
+          </tr></tbody></table>
+
+          <!-- DCA -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody><tr>
+              <td width="28%"><img src="media/dca.png" width="220" class="pub-img" onclick="openModal(this.src)" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 160 120%22><rect fill=%22%23f5f5f5%22 width=%22160%22 height=%22120%22/><text x=%2280%22 y=%2265%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2212%22>DCA</text></svg>'"></td>
+              <td width="65%" valign="top">
+                <a href="https://arxiv.org/abs/2205.02151"><papertitle>Dual Cross-Attention Learning for Fine-Grained Visual Categorization and Object Re-Identification</papertitle></a>
+                <br><strong>Haowei Zhu</strong>, Wenjing Ke, Dong Li, et al.
+                <br><em>CVPR</em>, 2022
+                <br><a href="https://arxiv.org/abs/2205.02151">arXiv</a>
+              </td>
+          </tr></tbody></table>
+
+        </div>
+
+        <!-- Honors -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Honors and Awards</heading>
+              <ul>
+                <li><strong>Huawei Scholarship</strong>, 2025</li>
+                <li><strong>National Scholarship</strong> (Top 1%), 2022</li>
+                <li><strong>First-class Scholarship</strong>, 2022, 2023</li>
+                <li><strong>Outstanding Master's Thesis</strong>, 2023</li>
+                <li><strong>2nd Place</strong> in MegEngine Paper Reproduction Competition, 2021</li>
+                <li>Published book "DeepSeek高效办公助手"</li>
+              </ul>
+          </td></tr>
+        </tbody></table>
+
+        <!-- Internships -->
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Internships</heading>
+              <ul>
+                <li><strong>ByteDance</strong>, Intelligent Creation Team, 2025.07 - Present</li>
+                <li><strong>AMD</strong>, 2020.09 - 2025.05 (3 years)</li>
+                <li><strong>Tencent PCG</strong>, 2024.06 - 2024.08</li>
+                <li><strong>Sany Heavy Industry</strong>, 2020.06 - 2020.09</li>
+              </ul>
+          </td></tr>
+        </tbody></table> -->
+
+        <!-- Education -->
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Education</heading>
+              <ul>
+                <li><strong>Ph.D. in Software Engineering</strong>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, 2023.09 - Present</li>
+                <li><strong>M.Eng.</strong>, <a href="https://www.bjfu.edu.cn/">Beijing Forestry University</a>, 2020.09 - 2023.06</li>
+                <li><strong>B.Eng.</strong>, <a href="https://www.xtu.edu.cn/">Xiangtan University</a>, 2016.09 - 2020.06</li>
+              </ul>
+          </td></tr>
+        </tbody></table> -->
+
+        <!-- Footer -->
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tr><td>
+          <br><p align="right"><font size="2">
+            Template adapted from <a href="https://junshengzhou.github.io/"><font size="2">Junsheng Zhou</font></a>
+            <br>Last updated: Feb 2025
+          </font></p>
+        </td></tr></table> -->
+
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- Image Zoom Modal -->
+  <div id="imgModal" class="modal" onclick="closeModal()">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+</body>
+</html>

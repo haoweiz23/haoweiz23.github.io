@@ -1,0 +1,30 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+
+# Old Jekyll files (not needed for pure HTML site)
+_data/
+_includes/
+_layouts/
+_pages/
+_posts/
+assets/
+_config.yml
+Gemfile
+Gemfile.lock
+index.md
+README.md
